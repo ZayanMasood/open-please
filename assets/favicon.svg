@@ -1,8 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs><linearGradient id="g" x1="8" y1="5" x2="57" y2="60"><stop stop-color="#B79CFF"/><stop offset=".52" stop-color="#7858EA"/><stop offset="1" stop-color="#4D89C7"/></linearGradient></defs>
-  <rect x="2" y="2" width="60" height="60" rx="19" fill="url(#g)"/>
-  <path d="M16 49V31c0-9 7.2-16 16-16s16 7 16 16v18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
-  <path d="m30 24 15 4.5v19L30 52V24Z" fill="#F7FFFD"/>
-  <circle cx="40.5" cy="38" r="1.8" fill="#5F49BF"/>
-  <circle cx="51" cy="13" r="4.5" fill="#7BE0C3" stroke="#fff" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Open Please logo</title>
+  <desc id="desc">Two simple hands reaching inward with their fingertips touching.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="70" y1="55" x2="445" y2="458" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a98bff"/>
+      <stop offset="1" stop-color="#6550dc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Purple rounded-square background -->
+  <rect x="24" y="24" width="464" height="464" rx="118" fill="url(#background)"/>
+
+  <!-- Two simple mirrored hands -->
+  <g
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="22"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <!-- Left hand -->
+    <path d="M72 333C102 310 129 296 163 288C193 281 216 267 234 247"/>
+    <path d="M82 225C126 207 176 201 217 210C233 213 244 219 253 229"/>
+    <path d="M109 272C139 260 166 255 192 255"/>
+    <path d="M104 300C137 288 168 282 196 282"/>
+    <path d="M117 328C146 316 174 307 201 304"/>
+    <path d="M164 289C188 286 213 274 231 257C241 248 248 241 253 236"/>
+
+    <!-- Right hand -->
+    <path d="M440 333C410 310 383 296 349 288C319 281 296 267 278 247"/>
+    <path d="M430 225C386 207 336 201 295 210C279 213 268 219 259 229"/>
+    <path d="M403 272C373 260 346 255 320 255"/>
+    <path d="M408 300C375 288 344 282 316 282"/>
+    <path d="M395 328C366 316 338 307 311 304"/>
+    <path d="M348 289C324 286 299 274 281 257C271 248 264 241 259 236"/>
+  </g>
+
+  <!-- Point where the fingertips meet -->
+  <circle cx="256" cy="232" r="15" fill="#78e2c4" stroke="#ffffff" stroke-width="8"/>
 </svg>

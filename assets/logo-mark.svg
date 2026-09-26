@@ -1,23 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
-  <title id="title">Open Please logo mark</title>
-  <desc id="desc">An abstract open doorway with a bright point of possibility.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Open Please logo</title>
+  <desc id="desc">Two simple hands reaching inward with their fingertips touching.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="10" y1="8" x2="86" y2="90" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#B79CFF"/>
-      <stop offset="0.52" stop-color="#7858EA"/>
-      <stop offset="1" stop-color="#4D89C7"/>
+    <linearGradient id="background" x1="70" y1="55" x2="445" y2="458" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a98bff"/>
+      <stop offset="1" stop-color="#6550dc"/>
     </linearGradient>
-    <linearGradient id="door" x1="39" y1="33" x2="69" y2="73" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#D8FFF4"/>
-    </linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#22175B" flood-opacity=".28"/>
-    </filter>
   </defs>
-  <rect x="4" y="4" width="88" height="88" rx="28" fill="url(#bg)"/>
-  <path d="M25 73V47c0-13.255 10.745-24 24-24s24 10.745 24 24v26" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="7" stroke-linecap="round"/>
-  <path d="M46 36.5 68 43v28L46 77.5v-41Z" fill="url(#door)" filter="url(#shadow)"/>
-  <circle cx="61.5" cy="57" r="2.5" fill="#5F49BF"/>
-  <circle cx="77" cy="23" r="7" fill="#7BE0C3" stroke="#fff" stroke-width="3"/>
+
+  <!-- Purple rounded-square background -->
+  <rect x="24" y="24" width="464" height="464" rx="118" fill="url(#background)"/>
+
+  <!-- Two simple mirrored hands -->
+  <g
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="22"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <!-- Left hand -->
+    <path d="M72 333C102 310 129 296 163 288C193 281 216 267 234 247"/>
+    <path d="M82 225C126 207 176 201 217 210C233 213 244 219 253 229"/>
+    <path d="M109 272C139 260 166 255 192 255"/>
+    <path d="M104 300C137 288 168 282 196 282"/>
+    <path d="M117 328C146 316 174 307 201 304"/>
+    <path d="M164 289C188 286 213 274 231 257C241 248 248 241 253 236"/>
+
+    <!-- Right hand -->
+    <path d="M440 333C410 310 383 296 349 288C319 281 296 267 278 247"/>
+    <path d="M430 225C386 207 336 201 295 210C279 213 268 219 259 229"/>
+    <path d="M403 272C373 260 346 255 320 255"/>
+    <path d="M408 300C375 288 344 282 316 282"/>
+    <path d="M395 328C366 316 338 307 311 304"/>
+    <path d="M348 289C324 286 299 274 281 257C271 248 264 241 259 236"/>
+  </g>
+
+  <!-- Point where the fingertips meet -->
+  <circle cx="256" cy="232" r="15" fill="#78e2c4" stroke="#ffffff" stroke-width="8"/>
 </svg>
