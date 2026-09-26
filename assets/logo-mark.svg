@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Open Please logo mark</title>
+  <desc id="desc">An abstract open doorway with a bright point of possibility.</desc>
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="86" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B79CFF"/>
+      <stop offset="0.52" stop-color="#7858EA"/>
+      <stop offset="1" stop-color="#4D89C7"/>
+    </linearGradient>
+    <linearGradient id="door" x1="39" y1="33" x2="69" y2="73" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D8FFF4"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#22175B" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="88" height="88" rx="28" fill="url(#bg)"/>
+  <path d="M25 73V47c0-13.255 10.745-24 24-24s24 10.745 24 24v26" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="7" stroke-linecap="round"/>
+  <path d="M46 36.5 68 43v28L46 77.5v-41Z" fill="url(#door)" filter="url(#shadow)"/>
+  <circle cx="61.5" cy="57" r="2.5" fill="#5F49BF"/>
+  <circle cx="77" cy="23" r="7" fill="#7BE0C3" stroke="#fff" stroke-width="3"/>
+</svg>

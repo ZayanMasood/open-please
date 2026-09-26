@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Open Please</title>
+  <desc id="desc">Different minds. Open possibilities.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse"><stop stop-color="#080B16"/><stop offset=".58" stop-color="#15132D"/><stop offset="1" stop-color="#122836"/></linearGradient>
+    <linearGradient id="word" x1="104" y1="255" x2="738" y2="475" gradientUnits="userSpaceOnUse"><stop stop-color="#CBBcff"/><stop offset=".48" stop-color="#9A7CFF"/><stop offset="1" stop-color="#7BE0C3"/></linearGradient>
+    <linearGradient id="mark" x1="850" y1="135" x2="1090" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#B79CFF"/><stop offset=".52" stop-color="#7858EA"/><stop offset="1" stop-color="#4D89C7"/></linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#fff" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1040" cy="65" r="260" fill="#9A7CFF" opacity=".10"/>
+  <circle cx="1030" cy="560" r="210" fill="#7BE0C3" opacity=".09"/>
+  <text x="105" y="132" fill="#AEB5C9" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="4">CENTRAL INDIANA COMMUNITY INITIATIVE</text>
+  <text x="100" y="290" fill="#F7F7FB" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-5">Different minds.</text>
+  <text x="100" y="402" fill="url(#word)" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-5">Open possibilities.</text>
+  <text x="106" y="510" fill="#AEB5C9" font-family="Arial, Helvetica, sans-serif" font-size="29">Sensory-considerate STEM, creative, and social experiences.</text>
+  <rect x="850" y="145" width="250" height="250" rx="76" fill="url(#mark)"/>
+  <path d="M908 340v-73c0-37 30-67 67-67s67 30 67 67v73" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
+  <path d="m966 238 61 18v78l-61 18v-114Z" fill="#F5FFFC"/>
+  <circle cx="1008" cy="296" r="7" fill="#5F49BF"/>
+  <circle cx="1064" cy="196" r="23" fill="#7BE0C3" stroke="#fff" stroke-width="8"/>
+</svg>
